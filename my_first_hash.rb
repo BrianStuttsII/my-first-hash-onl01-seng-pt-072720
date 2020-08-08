@@ -25,6 +25,8 @@ def retrieval
                  }
 
   # Look up the value of the "oil paintings" key in the shipping_manifest hash below
+  
+  return shipping_manifest["oil paintings"]
 
 end
 
@@ -36,7 +38,7 @@ def adding
                  }
   # add 2 muskets to the shipping_manifest hash below
 
-
+shipping_manifest["muskets"] = 2
 
   # add 4 gun powder to the shipping_manifest hash below
 
